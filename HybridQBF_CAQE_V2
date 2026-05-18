@@ -1,0 +1,56 @@
+#!/bin/bash
+FNAME=$1
+TOTAL_TIME_LIMIT=900
+TEMP_DIR=$3
+
+# 如果未提供临时目录，则自动创建一个
+if [ -z "$TEMP_DIR" ]; then
+    TEMP_DIR=$(mktemp -d -t qbf_solver.XXXXXX)
+fi
+mkdir -p "$TEMP_DIR"
+
+TEMP_FILE1="$TEMP_DIR/out1.txt"
+TEMP_FILE2="$TEMP_DIR/out2.txt"
+
+# 将总时间预留 4 秒安全缓冲，然后平分给两个求解器
+ADJUSTED=$(( TOTAL_TIME_LIMIT - 4 ))
+if [ $ADJUSTED -le 0 ]; then
+    ADJUSTED=1
+fi
+TIME1=$(( ADJUSTED / 2 ))
+#TIME1=0
+TIME2=$(( ADJUSTED - TIME1 ))
+
+# 运行第一个求解器
+timeout $TIME1 ./HybridQBF_CAQE_V2_M1 "$FNAME" > "$TEMP_FILE1"
+CODE1=$?
+
+# 若第一个求解器正常得出结果（10=SAT, 20=UNSAT），则输出并退出
+if [ $CODE1 -eq 10 ] || [ $CODE1 -eq 20 ]; then
+    # if [ $CODE1 -eq 10 ]; then
+    #     echo "${FNAME} M1 SAT"
+    # else
+    #     echo "${FNAME} M1 UNSAT"
+    # fi
+    rm -rf "$TEMP_DIR"
+    exit $CODE1
+fi
+
+# 否则运行第二个求解器
+timeout $TIME2 ./HybridQBF_CAQE_V2_M2 "$FNAME" > "$TEMP_FILE2"
+CODE2=$?
+
+if [ $CODE2 -eq 10 ] || [ $CODE2 -eq 20 ]; then
+    # if [ $CODE2 -eq 10 ]; then
+    #     echo "${FNAME} M2 SAT"
+    # else
+    #     echo "${FNAME} M2 UNSAT"
+    # fi
+    rm -rf "$TEMP_DIR"
+    exit $CODE2
+else
+    # 两个求解器都未能得出结果
+    # echo "${FNAME} UNKNOWN"
+    rm -rf "$TEMP_DIR"
+    exit 0
+fi
