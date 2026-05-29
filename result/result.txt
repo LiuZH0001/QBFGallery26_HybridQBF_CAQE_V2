@@ -1,0 +1,80 @@
+/home/wyy/benchmark/QBF/qdimacs/ntrivil_query71_1344n.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/mult_bool_matrix_dyn_9_5.sat.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/nreachq_query71_1344.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem20_length_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/network_trans_sys_notify.c.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem15_length_3.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/opt18_problem05_length_2.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem02_length_3.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/p20-10.pddl_planlen=39.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/neclaftp4001.qdimacs M2 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/p20-1.pddl_planlen=48.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/p20-10.pddl_planlen=40.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/nusmv.reactor^3.C-d4.qdimacs M2 SAT
+/home/wyy/benchmark/QBF/qdimacs/nusmv.tcas^2.B-f2.qdimacs M2 SAT
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem03_length_7.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem09_length_3.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem10_length_3.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem14_length_4.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem17_length_7.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mitexams_problem12_length_5.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/mult_bool_matrix_10_9_11.unsat.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/neclaftp2002.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/network_irda_miniport_nscirda_comm.c.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/network_ndis_rtlnwifi_hw_hw_ccmp.c.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/NotificationServiceImpl2.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/nreachq_query54_1344n.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/nusmv.tcas^3.B-f2.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/nusmv.tcas^4.B-f3.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/nusmv.tcas^6.B-f4.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s820_d10_s.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/ProjectService3.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/opt18_problem16_length_2.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem03_length_3.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem10_length_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem11_length_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/PhaseService.qdimacs M2 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem15_length_3.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/p20-20.pddl_planlen=29.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x1X1x3_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x2X2x2_1.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/p20-20.pddl_planlen=30.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x2X2x2_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/pi-bus-fixpoint-1.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x3X3x1_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem12_length_2.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x3X3x2_1.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem16_length_4.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/reachqu_query71_1344.qdimacs M2 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x2X2x3_1.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.AE.stepl.008.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.AE.stepl.009.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.AE.stepl.007.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/pipesnotankage19_9.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/ProcessBean.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/query71_query36_1344n.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/query71_query31_1344n.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s1269_d10_s.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s1269_d13_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s1269_d12_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s1269_d14_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s1269_d15_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s3330_d10_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt19_313_412.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort10.AE.stepl.008.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/s3330_d14_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/s3330_d9_s.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.AE.stepl.012.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.v.stepl.007.qdimacs M1 SAT
+/home/wyy/benchmark/QBF/qdimacs/sat18_problem07_length_3.qdimacs M2 SAT
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort9.v.stepl.005.qdimacs M1 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/s820_d11_u.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x2X2x3_2.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sc-ungrounded-1x3X3x2_2.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/sortnetsort10.v.stepl.005.qdimacs M2 UNSAT
+/home/wyy/benchmark/QBF/qdimacs/stmt17_62_98.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt17_63_82.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt17_70_90.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt17_82_98.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt17_86_98.qdimacs UNKNOWN
+/home/wyy/benchmark/QBF/qdimacs/stmt17_70_98.qdimacs UNKNOWN
