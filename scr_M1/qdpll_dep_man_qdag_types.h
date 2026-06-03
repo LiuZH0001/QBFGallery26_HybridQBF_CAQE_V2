@@ -1,26 +1,24 @@
 /*
- This file is part of DepQBF.
+ This file is part of HybridQBF_CAQE_V2.
 
- DepQBF, a solver for quantified boolean formulae (QBF).        
+ HybridQBF_CAQE_V2, a solver for quantified boolean formulae (QBF).
+ Copyright (C) 2026 Zhaohui Liu
 
- Copyright 2010, 2011, 2012, 2013, 2014, 2015, 2016 
- Florian Lonsing, Johannes Kepler University, Linz, Austria and 
- Vienna University of Technology, Vienna, Austria.
-
- Copyright 2012 Aina Niemetz, Johannes Kepler University, Linz, Austria.
-
- DepQBF is free software: you can redistribute it and/or modify
+ HybridQBF_CAQE_V2 is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or (at
  your option) any later version.
 
- DepQBF is distributed in the hope that it will be useful, but
+ HybridQBF_CAQE_V2 is distributed in the hope that it will be useful, but
  WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with DepQBF.  If not, see <http://www.gnu.org/licenses/>.
+ along with HybridQBF_CAQE_V2.  If not, see <http://www.gnu.org/licenses/>.
+
+ This program is based on DepQBF (Copyright 2010-2017 Florian Lonsing).
+ Modifications and new code Copyright (C) 2026 Zhaohui Liu.
 */
 
 #ifndef QDPLL_DEPMAN_QDAG_TYPES_H_INCLUDED
